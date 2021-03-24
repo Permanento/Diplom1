@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		086F569D260BE4BB00FB2615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086F569B260BE4BB00FB2615 /* Main.storyboard */; };
 		086F569F260BE4BD00FB2615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086F569E260BE4BD00FB2615 /* Assets.xcassets */; };
 		086F56A2260BE4BD00FB2615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086F56A0260BE4BD00FB2615 /* LaunchScreen.storyboard */; };
+		086F56B0260BFB7300FB2615 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F56AF260BFB7300FB2615 /* Persistance.swift */; };
 		F89639670FF68E9753062B3A /* Pods_Diplom1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64F9945146B2720A9341D81 /* Pods_Diplom1.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		086F569E260BE4BD00FB2615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086F56A1260BE4BD00FB2615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		086F56A3260BE4BD00FB2615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086F56AF260BFB7300FB2615 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
 		65080F1E903899399391F7F5 /* Pods-Diplom1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplom1.release.xcconfig"; path = "Target Support Files/Pods-Diplom1/Pods-Diplom1.release.xcconfig"; sourceTree = "<group>"; };
 		84BB022D05CDB2BD7DE8443E /* Pods-Diplom1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplom1.debug.xcconfig"; path = "Target Support Files/Pods-Diplom1/Pods-Diplom1.debug.xcconfig"; sourceTree = "<group>"; };
 		A64F9945146B2720A9341D81 /* Pods_Diplom1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diplom1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				086F5697260BE4BB00FB2615 /* SceneDelegate.swift */,
 				086F5699260BE4BB00FB2615 /* ViewController.swift */,
 				086F569B260BE4BB00FB2615 /* Main.storyboard */,
+				086F56AF260BFB7300FB2615 /* Persistance.swift */,
 				086F569E260BE4BD00FB2615 /* Assets.xcassets */,
 				086F56A0260BE4BD00FB2615 /* LaunchScreen.storyboard */,
 				086F56A3260BE4BD00FB2615 /* Info.plist */,
@@ -80,7 +83,6 @@
 				84BB022D05CDB2BD7DE8443E /* Pods-Diplom1.debug.xcconfig */,
 				65080F1E903899399391F7F5 /* Pods-Diplom1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086F569A260BE4BB00FB2615 /* ViewController.swift in Sources */,
+				086F56B0260BFB7300FB2615 /* Persistance.swift in Sources */,
 				086F5696260BE4BB00FB2615 /* AppDelegate.swift in Sources */,
 				086F5698260BE4BB00FB2615 /* SceneDelegate.swift in Sources */,
 			);
