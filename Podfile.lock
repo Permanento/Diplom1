@@ -4,19 +4,27 @@ PODS:
   - Realm/Headers (10.7.2)
   - RealmSwift (10.7.2):
     - Realm (= 10.7.2)
+  - SwipeTransition (0.4.3)
+  - SwipeViewController (2.0)
 
 DEPENDENCIES:
   - RealmSwift
+  - SwipeTransition
+  - SwipeViewController
 
 SPEC REPOS:
   trunk:
     - Realm
     - RealmSwift
+    - SwipeTransition
+    - SwipeViewController
 
 SPEC CHECKSUMS:
   Realm: e523da9ade306c5ae87e85dc09fdef148d3e1cc1
   RealmSwift: 4f6758c3adbdcc87f7b7777107226532a077f61c
+  SwipeTransition: 16257f6afc59a572e3b4635a329b10f7598ad269
+  SwipeViewController: 87ac3b72473f2caee7b84a7761c9367501fd557a
 
-PODFILE CHECKSUM: caf6f5f935b26630618f47ceb48984ea3d65f97f
+PODFILE CHECKSUM: 1a6d6a4fc5deee010b02c9ae7c5297ebbf532155
 
 COCOAPODS: 1.10.1

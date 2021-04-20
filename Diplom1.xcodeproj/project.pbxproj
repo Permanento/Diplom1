@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081D46CE262F824200199481 /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D46CD262F824200199481 /* MainScrollView.swift */; };
 		086F5696260BE4BB00FB2615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F5695260BE4BB00FB2615 /* AppDelegate.swift */; };
 		086F5698260BE4BB00FB2615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F5697260BE4BB00FB2615 /* SceneDelegate.swift */; };
 		086F569A260BE4BB00FB2615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F5699260BE4BB00FB2615 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081D46CD262F824200199481 /* MainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 		086F5692260BE4BB00FB2615 /* Diplom1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diplom1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		086F5695260BE4BB00FB2615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		086F5697260BE4BB00FB2615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				086F5697260BE4BB00FB2615 /* SceneDelegate.swift */,
 				086F5699260BE4BB00FB2615 /* ViewController.swift */,
 				086F569B260BE4BB00FB2615 /* Main.storyboard */,
+				081D46CD262F824200199481 /* MainScrollView.swift */,
 				086F56AF260BFB7300FB2615 /* Persistance.swift */,
 				086F569E260BE4BD00FB2615 /* Assets.xcassets */,
 				086F56A0260BE4BD00FB2615 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 				086F569A260BE4BB00FB2615 /* ViewController.swift in Sources */,
 				086F56B0260BFB7300FB2615 /* Persistance.swift in Sources */,
 				086F5696260BE4BB00FB2615 /* AppDelegate.swift in Sources */,
+				081D46CE262F824200199481 /* MainScrollView.swift in Sources */,
 				086F5698260BE4BB00FB2615 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
